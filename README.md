@@ -26,6 +26,9 @@ Currently we have:
 - the stats of the users' chosen cars are compared depending on which category they choose
 - the winning car is printed to the console
 
+## Testing
 
+The TopTrumpsChallenge.java file contains the main program
+The Cars.java file contains the main Cars class and the Audi, BMW and Mercedes subclasses
 
 
