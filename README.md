@@ -43,8 +43,26 @@ Currently we have:
 | top speed | topSpeed() |
 | engine size | engineSize() |
 | horsepower | horsePower() |
-| price | price() |
+| price | price() |  
 
+- car1 and car2 are used to store the objects which come from converting the strings user1car and user2car to their corresponding objects  
+  
+Inside the class:  
+
+- string make stores the make of a car object, these correspond to the class name of the object e.g. make "Audi" corresponds to an object from the Audi subclass
+- string model stores the model of a car object
+- float engineSize stores the engine size of a car object
+- float acceleration stores the acceleration of a car object
+- int price stores the price of a car object
+- int horsePower stores the horsepower of a car object
+- int topSpeed price stores the price of a car object
+
+### Classes
+
+- Cars is the primary class
+- Audi, BMW and Mercedes are subclasses of this Cars class
+- All methods are contained within the Cars class so are the same for any subclass
+- Getters are in standard camel case notation using the variable names from above e.g. getHorsePower()
 
 
 
