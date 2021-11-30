@@ -28,7 +28,27 @@ Currently we have:
 
 ## Testing
 
-The TopTrumpsChallenge.java file contains the main program
-The Cars.java file contains the main Cars class and the Audi, BMW and Mercedes subclasses
+- The TopTrumpsChallenge.java file contains the main program
+- The Cars.java file contains the main Cars class and the Audi, BMW and Mercedes subclasses
+
+### Variables
+
+- strings user1, user2 store the names of user 1 and user 2 respectively
+- strings user1car (and user2car) store the string user 1 (and user 2) enters when they input their choice of car
+- string category stores the stat the user chooses to compete with the other user in  
+  
+| category valid inputs | associated method |
+| --- | --- |
+| acceleration | acceleration() |
+| top speed | topSpeed() |
+| engine size | engineSize() |
+| horsepower | horsePower() |
+| price | price() |
+
+
+
+
+
+
 
 
